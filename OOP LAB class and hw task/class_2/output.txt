@@ -1,0 +1,427 @@
+Task 1:
+Enter the size of the array: 5
+Enter 5 elements: 3 7 2 9 5
+Sum: 26
+Average: 5.2
+Maximum value: 9
+
+
+Task2:
+Enter parameters for matrix: 2 2
+Enter matrix elements:
+1 2
+3 4
+
+Choose an operation:
+1. Matrix Addition
+2. Matrix Subtraction
+3. Matrix Multiplication
+4. Exit
+1
+Enter parameters for second matrix: 2 2
+Enter matrix elements:
+5 6
+7 8
+Result of Addition:
+6 8
+10 12
+
+Choose an operation:
+1. Matrix Addition
+2. Matrix Subtraction
+3. Matrix Multiplication
+4. Exit
+2
+Enter parameters for second matrix: 2 2
+Enter matrix elements:
+5 6
+7 8
+Result of Subtraction:
+4 4
+4 4
+
+Choose an operation:
+1. Matrix Addition
+2. Matrix Subtraction
+3. Matrix Multiplication
+4. Exit
+3
+Enter parameters for second matrix: 2 2
+Enter matrix elements:
+1 0
+0 1
+Result of Multiplication:
+1 2
+3 4
+
+Choose an operation:
+1. Matrix Addition
+2. Matrix Subtraction
+3. Matrix Multiplication
+4. Exit
+4
+Exiting...
+
+
+task3:
+Enter number of employees: 2
+
+Menu:
+1. Enter Employee Data
+2. Display All Employees
+3. Search Employee by ID
+4. Exit
+Enter your choice: 1
+Enter employee ID: 101
+Enter name: Alice
+Enter department: HR
+Enter salary: 50000
+Enter employee ID: 102
+Enter name: Bob
+Enter department: IT
+Enter salary: 60000
+
+Menu:
+1. Enter Employee Data
+2. Display All Employees
+3. Search Employee by ID
+4. Exit
+Enter your choice: 2
+Employee ID: 101, Name: Alice, Department: HR, Salary: 50000
+Employee ID: 102, Name: Bob, Department: IT, Salary: 60000
+
+Menu:
+1. Enter Employee Data
+2. Display All Employees
+3. Search Employee by ID
+4. Exit
+Enter your choice: 3
+Enter employee ID to search: 102
+Employee found: 
+Employee ID: 102, Name: Bob, Department: IT, Salary: 60000
+
+Menu:
+1. Enter Employee Data
+2. Display All Employees
+3. Search Employee by ID
+4. Exit
+Enter your choice: 3
+Enter employee ID to search: 105
+Employee not found!
+
+Menu:
+1. Enter Employee Data
+2. Display All Employees
+3. Search Employee by ID
+4. Exit
+Enter your choice: 4
+Exiting the program.
+
+Task 4:
+Enter number of students: 2
+
+Menu:
+1. Enter Student Data
+2. Calculate Averages
+3. Assign Grades
+4. Display Student Details
+5. Exit
+Enter your choice: 1
+Enter name: Alice
+Enter roll number: 101
+Enter marks for 5 subjects: 95 87 78 92 88
+Enter name: Bob
+Enter roll number: 102
+Enter marks for 5 subjects: 55 60 65 70 75
+
+Menu:
+1. Enter Student Data
+2. Calculate Averages
+3. Assign Grades
+4. Display Student Details
+5. Exit
+Enter your choice: 2
+
+Menu:
+1. Enter Student Data
+2. Calculate Averages
+3. Assign Grades
+4. Display Student Details
+5. Exit
+Enter your choice: 3
+
+Menu:
+1. Enter Student Data
+2. Calculate Averages
+3. Assign Grades
+4. Display Student Details
+5. Exit
+Enter your choice: 4
+
+Student 1 Details: 
+Name: Alice
+Roll Number: 101
+Marks: 95 87 78 92 88 
+Average: 88
+Grade: B
+
+Student 2 Details: 
+Name: Bob
+Roll Number: 102
+Marks: 55 60 65 70 75 
+Average: 65
+Grade: D
+
+Menu:
+1. Enter Student Data
+2. Calculate Averages
+3. Assign Grades
+4. Display Student Details
+5. Exit
+Enter your choice: 5
+Exiting the program.
+
+task 5:
+hello world
+Concatenation: helloworld
+Compression of first string: helo
+Length of first string: 5
+Length of second string: 5
+
+Task 6:
+Enter number of books: 3
+
+Menu:
+1. Enter Books Data
+2. Add a New Book
+3. Remove a Book
+4. Search for a Book
+5. Display All Books
+6. Exit
+Enter your choice: 1
+
+Enter title of book 1: Book1
+Enter author of book 1: Author1
+Enter book ID of book 1: 101
+Enter availability (y/n) of book 1: y
+Enter title of book 2: Book2
+Enter author of book 2: Author2
+Enter book ID of book 2: 102
+Enter availability (y/n) of book 2: n
+Enter title of book 3: Book3
+Enter author of book 3: Author3
+Enter book ID of book 3: 103
+Enter availability (y/n) of book 3: y
+
+Menu:
+1. Enter Books Data
+2. Add a New Book
+3. Remove a Book
+4. Search for a Book
+5. Display All Books
+6. Exit
+Enter your choice: 2
+
+Enter title of new book: Book4
+Enter author of new book: Author4
+Enter book ID of new book: 104
+Enter availability (y/n) of new book: y
+
+Menu:
+1. Enter Books Data
+2. Add a New Book
+3. Remove a Book
+4. Search for a Book
+5. Display All Books
+6. Exit
+Enter your choice: 4
+
+Enter the book ID you want to search: 102
+Book found!
+Title: Book2
+Author: Author2
+Book ID: 102
+Availability: Not Available
+
+Menu:
+1. Enter Books Data
+2. Add a New Book
+3. Remove a Book
+4. Search for a Book
+5. Display All Books
+6. Exit
+Enter your choice: 3
+
+Enter the book ID you want to remove: 101
+Book removed successfully.
+
+Menu:
+1. Enter Books Data
+2. Add a New Book
+3. Remove a Book
+4. Search for a Book
+5. Display All Books
+6. Exit
+Enter your choice: 5
+
+Displaying all books:
+Book 1:
+Title: Book2
+Author: Author2
+Book ID: 102
+Availability: Not Available
+Book 2:
+Title: Book3
+Author: Author3
+Book ID: 103
+Availability: Available
+Book 3:
+Title: Book4
+Author: Author4
+Book ID: 104
+Availability: Available
+
+Menu:
+1. Enter Books Data
+2. Add a New Book
+3. Remove a Book
+4. Search for a Book
+5. Display All Books
+6. Exit
+Enter your choice: 6
+Exiting the program.
+
+Task 7:
+Choose an option:
+1. Reverse an array
+2. Swap two numbers
+2
+Enter two numbers: 5 10
+Before swap: 5 10
+After swap: 10 5
+
+task 8:
+Enter number of products: 1
+
+Menu:
+1. Enter Products Data
+2. Add a New Product
+3. Remove a Product
+4. Search for a Product
+5. Display All Products
+6. Exit
+Enter your choice: 1
+Enter name of product 1: Pencil
+Enter product ID of product 1: 201
+Enter quantity of product 1: 20
+Enter price of product 1: 1.0
+
+Menu:
+1. Enter Products Data
+2. Add a New Product
+3. Remove a Product
+4. Search for a Product
+5. Display All Products
+6. Exit
+Enter your choice: 2
+Enter name of new product: Eraser
+Enter product ID of new product: 202
+Enter quantity of new product: 15
+Enter price of new product: 0.5
+
+Menu:
+1. Enter Products Data
+2. Add a New Product
+3. Remove a Product
+4. Search for a Product
+5. Display All Products
+6. Exit
+Enter your choice: 4
+Enter the product ID you want to search: 202
+Product found!
+Name: Eraser
+Product ID: 202
+Quantity: 15
+Price: 0.5
+
+Menu:
+1. Enter Products Data
+2. Add a New Product
+3. Remove a Product
+4. Search for a Product
+5. Display All Products
+6. Exit
+Enter your choice: 5
+
+Displaying all products:
+Product 1:
+Name: Pencil
+Product ID: 201
+Quantity: 20
+Price: 1
+Product 2:
+Name: Eraser
+Product ID: 202
+Quantity: 15
+Price: 0.5
+Total value of the inventory is: 22.5
+
+Task 9 :
+Enter number of students: 3
+
+Menu:
+1. Enter Students Data
+2. Add a New Student
+3. Remove a Student
+4. Search for a Student
+5. Display All Students
+6. Exit
+Enter your choice: 1
+Enter name of student 1: John
+Enter roll number of student 1: 101
+Enter total marks of student 1: 85
+Enter name of student 2: Alice
+Enter roll number of student 2: 102
+Enter total marks of student 2: 90
+Enter name of student 3: Bob
+Enter roll number of student 3: 103
+Enter total marks of student 3: 78
+
+Menu:
+1. Enter Students Data
+2. Add a New Student
+3. Remove a Student
+4. Search for a Student
+5. Display All Students
+6. Exit
+Enter your choice: 2
+
+Displaying all students:
+Student 1:
+Name: John
+Roll Number: 101
+Total Marks: 85
+Student 2:
+Name: Alice
+Roll Number: 102
+Total Marks: 90
+Student 3:
+Name: Bob
+Roll Number: 103
+Total Marks: 78
+Student with highest marks is Alice with marks: 90
+
+Menu:
+1. Enter Students Data
+2. Add a New Student
+3. Remove a Student
+4. Search for a Student
+5. Display All Students
+6. Exit
+Enter your choice: 6
+Exiting the program.
+
+Task 10:
+1 4 
+2 5 
+3 6
