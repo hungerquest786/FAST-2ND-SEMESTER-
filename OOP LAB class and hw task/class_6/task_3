@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+
+class person {
+public:
+    string name;
+    int age;
+
+    void displaydetail() {
+        cout << "Name: " << name << ", Age: " << age << endl;
+    }
+};
+
+class teacher : public person {
+public:
+    string subject;
+    void displaydetail1() {
+        displaydetail();
+        cout << "Subject: " << subject << endl;
+    }
+};
+
+class researcher : public teacher {
+public:
+    string researchArea;
+    void displaydetail1() {
+        teacher::displaydetail1();
+        cout << "Research Area: " << researchArea << endl;
+    }
+};
+
+
+class professor : public researcher {
+public:
+    int publications;
+    void displaydetail1() {
+        researcher::displaydetail1();  
+        cout << "Publications: " << publications << endl;
+    }
+};
+
+
+class University : public professor {
+public:
+    void enterdetail() {
+        cout << "Enter Name: ";
+        cin >> name;
+        cout << "Enter Age: ";
+        cin >> age;
+        cout << "Enter Subject: ";
+        cin >> subject;
+        cout << "Enter Research Area: ";
+        cin >> researchArea;
+        cout << "Enter Number of Publications: ";
+        cin >> publications;
+    }
+};
+
+int main() {
+    
+    University u;
+    cout << "Enter details for University Professor:" << endl;
+    u.enterdetail();
+    
+    cout << "\nUniversity Professor Details:" << endl;
+    u.displaydetail1();
+
+    return 0;
+}
