@@ -1,0 +1,7 @@
+# Vehicles with supported types
+AutonomousCar,301,TeslaModelY,2023,SoftwareVersion:13.0,Certified
+Electric Vehicle,302,LeafPlus,2022,Battery:62,Certified
+HybridTruck,303,FordF150,2021,Cargo:150|Battery:35,Certified
+AutonomousCar,304,WaymoX,2024,SoftwareVersion:14.5,Certified
+Electric Vehicle,305,ChevyBoltEUV,2023,Battery:65,Certified
+HybridTruck,306,RAMRebel,2025,Cargo:180|Battery:40,Certified

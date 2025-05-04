@@ -1,0 +1,6 @@
+# Sample vehicle data
+AutonomousCar,101,TeslaModelX,2023,SoftwareVersion:12.5,Certified
+Electric Vehicle,102,NissanLeaf,2022,Battery:60,Certified
+AutonomousCar,103,WaymoOne,2024,SoftwareVersion:13.2,Certified
+Electric Vehicle,104,ChevyBolt,2021,Battery:65,Certified
+GasCar,105,HondaCivic,2020,FuelType:Petrol,Certified

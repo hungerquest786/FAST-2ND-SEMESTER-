@@ -1,0 +1,4 @@
+This is the first part of the log. 
+This is the second part of the log. 
+And the third part. 
+(Note: The file contains three lines. The last line might or might not have a trailing newline depending on the exact writing method, but the seek calculation in the task assumes the specific lengths as written.) 

@@ -1,0 +1,1 @@
+  file.seekg(18, ios::beg);
